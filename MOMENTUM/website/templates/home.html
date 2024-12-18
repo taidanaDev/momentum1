@@ -1,0 +1,252 @@
+{% extends "base.html" %}
+
+{% block title %}Home{% endblock %}
+
+{% block content %}
+
+<style>
+    /* Set the background image */
+    body {
+        background-image: url('https://i.imghippo.com/files/yNr2239LFw.png');
+        background-size: cover; /* Cover the entire viewport */
+        background-repeat: no-repeat; /* Do not repeat the image */
+        background-position: center; /* Center the image */
+        background-attachment: fixed;
+        height: 100vh; /* Full height of the viewport */
+    }
+
+    /* Optional: Add a semi-transparent overlay for better text visibility */
+    .overlay {
+        background-color: rgba(0, 0, 0, 0.5); /* Black with 50% opacity */
+        height: 100%; /* Full height */
+        padding: 20px; /* Padding for content */
+    }
+
+    /* Calendar background color */
+    #calendar {
+        background-color: #f8f9fa; /* Light gray background for the calendar */
+        border-radius: 5px; /* Rounded corners for the calendar */
+        padding: 10px; /* Padding inside the calendar */
+    }
+
+    /* Calendar container styles */
+    .calendar-container {
+        background-color: white; /* White background for the calendar */
+        border-radius: 10px; /* Rounded corners */
+        padding: 20px; /* Padding inside the container */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+        margin-top: 100px; /* Add margin to lower the calendar */
+    }
+
+    /* Add margin to the daily challenge and task list */
+    .daily-challenge {
+        margin-top: 30px; /* Add margin to lower the daily challenge */
+    }
+
+    .task-list {
+        margin-top: 20px; /* Add margin to lower the task list */
+    }
+
+    .task-container {
+        background-color: rgba(255, 255, 255, 0.8); /* Light white background with some transparency */
+        border-radius: 10px; /* Rounded corners */
+        padding: 20px; /* Padding inside the container */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+        margin-top: 10px; /* Margin to separate from other elements */
+    }
+
+    /* Group the progress circle and task list together */
+    .task-progress-container {
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+        /* Style the container around the progress bar */
+    .progress-container {
+        width: 100%; /* Full width of the container */
+        margin-bottom: 1px; /* Space below the progress bar */
+    }
+
+    /* Style the progress bar itself */
+    .progress {
+        height: 40px; /* Height of the progress bar */
+        background-color: #f3f3f3; /* Light gray background for the empty progress */
+        border-radius: 5px; /* Rounded corners */
+        overflow: hidden; /* Ensure the progress bar doesn't overflow */
+    }
+
+    /* Style the progress bar inside (percentage bar) */
+    .progress-bar {
+        height: 100%; /* Make the bar fill the entire height of the progress container */
+        text-align: center; /* Center the text inside the bar */
+        line-height: 40px; /* Vertically center the percentage text */
+        color: white; /* Text color for the percentage */
+        font-weight: bold; /* Make the percentage text bold */
+        transition: width 0.5s ease; /* Smooth transition when the percentage changes */
+    }
+
+
+</style>
+
+<div class="container-fluid">
+    <div class="row">
+        <!-- Calendar Section -->
+        <div class="col-md-8">
+            <h1 class="my-4 text-violet">.</h1>
+            
+            <!-- FullCalendar Integration -->
+            <div id="calendar"></div>
+        </div>
+        
+        <div class="col-md-4">
+            <!-- Grouped Task Progress Circle and Task List -->
+            <div class="task-progress-container">
+                <!-- Display Daily Challenge -->
+                <div class="alert alert-info">
+                    <text class="my-4 text-blue">Daily Challenge: </text>
+                    <strong>{{ daily_challenge.title }}</strong>: {{ daily_challenge.description }}
+                </div>
+                
+                <!-- Task Progress Bar -->
+                <h2 class="my-4 text-white">Your Tasks</h2>
+                <div class="progress-container">
+                    <div class="progress">
+                        <!-- Progress bar that reflects the completion percentage -->
+                        <div class="progress-bar" role="progressbar"  
+                             style="width: {{ progress_percentage }}%; 
+                                    background-color: { '2f0a3d' if task.is_done else '#e6e6e6' };" 
+                             aria-valuenow="{{ progress_percentage }}" 
+                             aria-valuemin="0" 
+                             aria-valuemax="100">
+                            {{ progress_percentage | round(0) }}%
+                        </div>
+                    </div>
+                </div>
+                
+                
+                <!-- Task List -->
+                <div class="task-container">
+                    <ul class="list-group task-list">
+                        {% for task in tasks %}
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                            <div>
+                                <strong>{{ task.title }}</strong> - {{ task.description }} (Due: {{ task.date.strftime('%B %d, %Y') }})
+                                <span class="badge bg-{{ 'success' if task.is_done else 'warning' }}">
+                                    {{ 'Done' if task.is_done else 'Not Done' }}
+                                </span>
+                            </div>
+                            <div>
+                                <form method="POST" action="/delete-task" style="display:inline;">
+                                    <input type="hidden" name="taskId" value="{{ task.id }}">
+                                    <button type="submit" class="btn btn-danger btn-sm">Delete</button>
+                                </form>
+                                <button class="btn btn-{{ 'success' if task.is_done else 'primary' }} btn-sm mark-as-done" 
+                                        data-task-id="{{ task.id }}" 
+                                        data-is-done="{{ not task.is_done }}">
+                                    {{ 'Mark as Not Done' if task.is_done else 'Mark as Done' }}
+                                </button>
+                            </div>
+                        </li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- FullCalendar and Task Scripts -->
+<script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.15/index.global.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+<script>
+    
+    document.addEventListener('DOMContentLoaded', function() {
+        const calendarEl = document.getElementById('calendar');
+        const calendar = new FullCalendar.Calendar(calendarEl, {
+            initialView: 'dayGridMonth',
+            selectable: true,
+            editable: false,
+            headerToolbar: {
+                left: 'prev,next today',
+                center: 'title',
+                right: 'dayGridMonth,timeGridWeek,timeGridDay'
+            },
+            dateClick: function(info) {
+                Swal.fire({
+                    title: 'Add Task',
+                    html:
+                        `<form id="add-task-form" method="POST" action="/">
+                            <input type="hidden" name="date" value="${info.dateStr}">
+                            <div class="mb-3">
+                                <label for="task-title" class="form-label">Task Title</label>
+                                <input type="text" class="form-control" id="task-title" name="title" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="task-description" class="form-label">Task Description</label>
+                                <textarea class="form-control" id="task-description" name="description"></textarea>
+                            </div>
+                        </form>`,
+                    confirmButtonText: 'Add Task',
+                    showCancelButton: true,
+                    preConfirm: () => {
+                        const form = document.getElementById('add-task-form');
+                        form.submit();
+                    }
+                });
+            },
+            events: [
+                {% for task in tasks %}
+                {
+                    title: "{{ task.title }}",
+                    start: "{{ task.date.isoformat() }}",
+                    description: "{{ task.description }}"
+                },
+                {% endfor %}
+            ]
+        });
+        calendar.render();
+    });
+    
+    // Handle task status changes
+    document.querySelectorAll('.mark-as-done').forEach(button => {
+        button.addEventListener('click', function() {
+            const taskId = this.getAttribute('data-task-id');
+            const isDone = this.getAttribute('data-is-done') === 'true';
+
+            Swal.fire({
+                title: 'Are you sure?',
+                text: isDone ? 'You are about to mark this task as done.' : 'You are about to unmark this task.',
+                icon: 'warning',
+                showCancelButton: true,
+                confirmButtonText: 'Yes, proceed!',
+                cancelButtonText: 'No, cancel!'
+            }).then((result) => {
+                if (result.isConfirmed) {
+                    const form = document.createElement('form');
+                    form.method = 'POST';
+                    form.action = '/update-task-status';
+
+                    const taskIdInput = document.createElement('input');
+                    taskIdInput.type = 'hidden';
+                    taskIdInput.name = 'taskId';
+                    taskIdInput.value = taskId;
+
+                    const isDoneInput = document.createElement('input');
+                    isDoneInput.type = 'hidden';
+                    isDoneInput.name = 'isDone';
+                    isDoneInput.value = !isDone;
+
+                    form.appendChild(taskIdInput);
+                    form.appendChild(isDoneInput);
+                    document.body.appendChild(form);
+                    form.submit();
+                }
+            });
+        });
+    });
+</script>
+
+{% endblock %}

@@ -1,0 +1,531 @@
+2024-12-17 21:35:55,717 INFO werkzeug : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-17 21:35:55,718 INFO werkzeug : [33mPress CTRL+C to quit[0m
+2024-12-17 21:35:55,721 INFO werkzeug :  * Restarting with stat
+2024-12-17 21:35:56,404 WARNING werkzeug :  * Debugger is active!
+2024-12-17 21:35:56,409 INFO werkzeug :  * Debugger PIN: 359-238-220
+2024-12-17 21:36:14,590 INFO werkzeug : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-17 21:36:14,590 INFO werkzeug : [33mPress CTRL+C to quit[0m
+2024-12-17 21:36:14,592 INFO werkzeug :  * Restarting with stat
+2024-12-17 21:36:15,240 WARNING werkzeug :  * Debugger is active!
+2024-12-17 21:36:15,243 INFO werkzeug :  * Debugger PIN: 359-238-220
+2024-12-17 21:37:11,945 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 21:37:11] "[32mGET / HTTP/1.1[0m" 302 -
+2024-12-17 21:37:11,963 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 21:37:11] "GET /login?next=/ HTTP/1.1" 200 -
+2024-12-17 21:37:13,532 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 21:37:13] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-12-17 21:37:31,093 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 21:37:31] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-12-17 21:37:31,110 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 21:37:31] "GET / HTTP/1.1" 200 -
+2024-12-17 21:38:06,455 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 21:38:06] "POST / HTTP/1.1" 200 -
+2024-12-17 21:38:10,648 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 21:38:10] "[32mPOST /update-task-status HTTP/1.1[0m" 302 -
+2024-12-17 21:38:10,658 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 21:38:10] "GET / HTTP/1.1" 200 -
+2024-12-17 21:45:11,708 INFO werkzeug : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-17 21:45:11,708 INFO werkzeug : [33mPress CTRL+C to quit[0m
+2024-12-17 21:45:11,710 INFO werkzeug :  * Restarting with stat
+2024-12-17 21:45:12,382 WARNING werkzeug :  * Debugger is active!
+2024-12-17 21:45:12,385 INFO werkzeug :  * Debugger PIN: 359-238-220
+2024-12-17 21:45:17,189 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 21:45:17] "GET / HTTP/1.1" 200 -
+2024-12-17 21:45:20,168 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 21:45:20] "GET / HTTP/1.1" 200 -
+2024-12-17 21:51:41,159 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 21:51:41] "GET / HTTP/1.1" 200 -
+2024-12-17 21:52:12,435 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 21:52:12] "POST / HTTP/1.1" 200 -
+2024-12-17 21:52:21,216 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 21:52:21] "[32mPOST /delete-task HTTP/1.1[0m" 302 -
+2024-12-17 21:52:21,225 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 21:52:21] "GET / HTTP/1.1" 200 -
+2024-12-17 21:52:45,063 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 21:52:45] "GET / HTTP/1.1" 200 -
+2024-12-17 21:54:00,378 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 21:54:00] "GET / HTTP/1.1" 200 -
+2024-12-17 21:56:25,010 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 21:56:25] "GET / HTTP/1.1" 200 -
+2024-12-17 21:56:26,514 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 21:56:26] "GET / HTTP/1.1" 200 -
+2024-12-17 21:57:41,512 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 21:57:41] "GET / HTTP/1.1" 200 -
+2024-12-17 21:57:42,523 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 21:57:42] "GET / HTTP/1.1" 200 -
+2024-12-17 21:57:43,080 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 21:57:43] "GET / HTTP/1.1" 200 -
+2024-12-17 21:57:43,529 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 21:57:43] "GET / HTTP/1.1" 200 -
+2024-12-17 22:04:08,788 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 22:04:08] "GET / HTTP/1.1" 200 -
+2024-12-17 22:04:27,712 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 22:04:27] "GET / HTTP/1.1" 200 -
+2024-12-17 22:05:53,279 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 22:05:53] "GET / HTTP/1.1" 200 -
+2024-12-17 22:07:27,920 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 22:07:27] "GET / HTTP/1.1" 200 -
+2024-12-17 22:07:28,709 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 22:07:28] "GET / HTTP/1.1" 200 -
+2024-12-17 22:08:49,533 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 22:08:49] "GET / HTTP/1.1" 200 -
+2024-12-17 22:08:50,388 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 22:08:50] "GET / HTTP/1.1" 200 -
+2024-12-17 22:10:11,538 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 22:10:11] "GET / HTTP/1.1" 200 -
+2024-12-17 22:10:42,831 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 22:10:42] "GET / HTTP/1.1" 200 -
+2024-12-17 22:11:03,005 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 22:11:03] "GET / HTTP/1.1" 200 -
+2024-12-17 22:12:30,149 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 22:12:30] "GET / HTTP/1.1" 200 -
+2024-12-17 22:13:50,965 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 22:13:50] "GET / HTTP/1.1" 200 -
+2024-12-17 22:14:17,854 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 22:14:17] "GET / HTTP/1.1" 200 -
+2024-12-17 22:16:04,098 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 22:16:04] "GET / HTTP/1.1" 200 -
+2024-12-17 22:16:05,187 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 22:16:05] "GET / HTTP/1.1" 200 -
+2024-12-17 22:16:05,816 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 22:16:05] "GET / HTTP/1.1" 200 -
+2024-12-17 22:16:06,006 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 22:16:06] "GET / HTTP/1.1" 200 -
+2024-12-17 22:16:06,193 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 22:16:06] "GET / HTTP/1.1" 200 -
+2024-12-17 22:16:06,388 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 22:16:06] "GET / HTTP/1.1" 200 -
+2024-12-17 22:16:06,575 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 22:16:06] "GET / HTTP/1.1" 200 -
+2024-12-17 22:16:06,756 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 22:16:06] "GET / HTTP/1.1" 200 -
+2024-12-17 22:16:06,937 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 22:16:06] "GET / HTTP/1.1" 200 -
+2024-12-17 22:16:07,159 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 22:16:07] "GET / HTTP/1.1" 200 -
+2024-12-17 22:16:42,987 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 22:16:42] "GET / HTTP/1.1" 200 -
+2024-12-17 22:16:43,728 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 22:16:43] "GET / HTTP/1.1" 200 -
+2024-12-17 22:16:43,900 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 22:16:43] "GET / HTTP/1.1" 200 -
+2024-12-17 22:16:44,095 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 22:16:44] "GET / HTTP/1.1" 200 -
+2024-12-17 22:16:44,296 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 22:16:44] "GET / HTTP/1.1" 200 -
+2024-12-17 22:17:47,636 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 22:17:47] "GET / HTTP/1.1" 200 -
+2024-12-17 22:18:28,673 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 22:18:28] "GET / HTTP/1.1" 200 -
+2024-12-17 22:19:39,151 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 22:19:39] "GET / HTTP/1.1" 200 -
+2024-12-17 22:19:40,069 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 22:19:40] "GET / HTTP/1.1" 200 -
+2024-12-17 22:19:56,034 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 22:19:56] "GET / HTTP/1.1" 200 -
+2024-12-17 22:19:56,843 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 22:19:56] "GET / HTTP/1.1" 200 -
+2024-12-17 22:19:57,033 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 22:19:57] "GET / HTTP/1.1" 200 -
+2024-12-17 22:19:57,214 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 22:19:57] "GET / HTTP/1.1" 200 -
+2024-12-17 22:19:57,401 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 22:19:57] "GET / HTTP/1.1" 200 -
+2024-12-17 22:19:57,622 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 22:19:57] "GET / HTTP/1.1" 200 -
+2024-12-17 22:20:17,220 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 22:20:17] "GET / HTTP/1.1" 200 -
+2024-12-17 22:20:17,998 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 22:20:17] "GET / HTTP/1.1" 200 -
+2024-12-17 22:21:22,879 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 22:21:22] "GET / HTTP/1.1" 200 -
+2024-12-17 22:21:23,574 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 22:21:23] "GET / HTTP/1.1" 200 -
+2024-12-17 22:22:25,666 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 22:22:25] "GET / HTTP/1.1" 200 -
+2024-12-17 22:24:31,018 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 22:24:31] "GET / HTTP/1.1" 200 -
+2024-12-17 22:24:31,993 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 22:24:31] "GET / HTTP/1.1" 200 -
+2024-12-17 22:24:32,894 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 22:24:32] "GET / HTTP/1.1" 200 -
+2024-12-17 22:26:24,565 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 22:26:24] "GET / HTTP/1.1" 200 -
+2024-12-17 22:30:27,628 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 22:30:27] "GET / HTTP/1.1" 200 -
+2024-12-17 22:31:43,587 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 22:31:43] "GET / HTTP/1.1" 200 -
+2024-12-17 22:31:58,531 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 22:31:58] "GET / HTTP/1.1" 200 -
+2024-12-17 22:31:59,616 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 22:31:59] "GET / HTTP/1.1" 200 -
+2024-12-17 22:32:09,685 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 22:32:09] "GET / HTTP/1.1" 200 -
+2024-12-17 22:32:10,707 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 22:32:10] "GET / HTTP/1.1" 200 -
+2024-12-17 22:32:23,462 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 22:32:23] "GET / HTTP/1.1" 200 -
+2024-12-17 22:32:40,896 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 22:32:40] "GET / HTTP/1.1" 200 -
+2024-12-17 22:33:04,084 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 22:33:04] "POST / HTTP/1.1" 200 -
+2024-12-17 22:33:13,745 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 22:33:13] "POST / HTTP/1.1" 200 -
+2024-12-17 22:33:18,959 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 22:33:18] "[32mPOST /delete-task HTTP/1.1[0m" 302 -
+2024-12-17 22:33:18,969 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 22:33:18] "GET / HTTP/1.1" 200 -
+2024-12-17 22:33:20,207 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 22:33:20] "[32mPOST /delete-task HTTP/1.1[0m" 302 -
+2024-12-17 22:33:20,214 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 22:33:20] "GET / HTTP/1.1" 200 -
+2024-12-17 22:36:21,158 INFO werkzeug :  * Detected change in 'c:\\Users\\Ken Bandiez\\MOMENTUM\\website\\views.py', reloading
+2024-12-17 22:36:21,616 INFO werkzeug :  * Restarting with stat
+2024-12-17 22:36:22,674 WARNING werkzeug :  * Debugger is active!
+2024-12-17 22:36:22,678 INFO werkzeug :  * Debugger PIN: 359-238-220
+2024-12-17 22:36:22,720 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 22:36:22] "GET / HTTP/1.1" 200 -
+2024-12-17 22:36:40,174 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 22:36:40] "POST / HTTP/1.1" 200 -
+2024-12-17 22:36:41,738 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 22:36:41] "POST / HTTP/1.1" 200 -
+2024-12-17 22:37:08,861 INFO werkzeug :  * Detected change in 'c:\\Users\\Ken Bandiez\\MOMENTUM\\website\\views.py', reloading
+2024-12-17 22:37:09,013 INFO werkzeug :  * Restarting with stat
+2024-12-17 22:37:09,710 WARNING werkzeug :  * Debugger is active!
+2024-12-17 22:37:09,713 INFO werkzeug :  * Debugger PIN: 359-238-220
+2024-12-17 22:37:10,362 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 22:37:10] "GET / HTTP/1.1" 200 -
+2024-12-17 22:37:33,988 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 22:37:33] "GET / HTTP/1.1" 200 -
+2024-12-17 22:38:38,880 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 22:38:38] "GET / HTTP/1.1" 200 -
+2024-12-17 22:38:47,956 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 22:38:47] "POST / HTTP/1.1" 200 -
+2024-12-17 22:39:11,891 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 22:39:11] "POST / HTTP/1.1" 200 -
+2024-12-17 22:39:31,248 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 22:39:31] "[32mPOST /delete-task HTTP/1.1[0m" 302 -
+2024-12-17 22:39:31,256 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 22:39:31] "GET / HTTP/1.1" 200 -
+2024-12-17 22:39:33,886 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 22:39:33] "[32mPOST /delete-task HTTP/1.1[0m" 302 -
+2024-12-17 22:39:33,892 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 22:39:33] "GET / HTTP/1.1" 200 -
+2024-12-17 22:39:35,670 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 22:39:35] "[32mPOST /delete-task HTTP/1.1[0m" 302 -
+2024-12-17 22:39:35,678 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 22:39:35] "GET / HTTP/1.1" 200 -
+2024-12-17 22:40:31,024 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 22:40:31] "GET / HTTP/1.1" 200 -
+2024-12-17 22:40:32,123 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 22:40:32] "GET / HTTP/1.1" 200 -
+2024-12-17 22:40:32,721 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 22:40:32] "GET / HTTP/1.1" 200 -
+2024-12-17 22:40:33,122 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 22:40:33] "GET / HTTP/1.1" 200 -
+2024-12-17 22:40:42,920 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 22:40:42] "GET / HTTP/1.1" 200 -
+2024-12-17 22:42:36,494 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 22:42:36] "GET / HTTP/1.1" 200 -
+2024-12-17 22:43:20,566 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 22:43:20] "GET / HTTP/1.1" 200 -
+2024-12-17 22:43:56,143 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 22:43:56] "GET / HTTP/1.1" 200 -
+2024-12-17 22:44:05,011 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 22:44:05] "POST / HTTP/1.1" 200 -
+2024-12-17 22:44:24,591 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 22:44:24] "POST / HTTP/1.1" 200 -
+2024-12-17 22:48:30,271 INFO werkzeug :  * Detected change in 'c:\\Users\\Ken Bandiez\\MOMENTUM\\website\\views.py', reloading
+2024-12-17 22:48:30,822 INFO werkzeug :  * Restarting with stat
+2024-12-17 22:48:31,734 WARNING werkzeug :  * Debugger is active!
+2024-12-17 22:48:31,738 INFO werkzeug :  * Debugger PIN: 359-238-220
+2024-12-17 22:48:33,698 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 22:48:33] "POST / HTTP/1.1" 200 -
+2024-12-17 22:50:25,061 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 22:50:25] "POST / HTTP/1.1" 200 -
+2024-12-17 22:50:38,723 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 22:50:38] "[32mPOST /delete-task HTTP/1.1[0m" 302 -
+2024-12-17 22:50:38,737 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 22:50:38] "GET / HTTP/1.1" 200 -
+2024-12-17 22:50:40,783 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 22:50:40] "[32mPOST /delete-task HTTP/1.1[0m" 302 -
+2024-12-17 22:50:40,792 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 22:50:40] "GET / HTTP/1.1" 200 -
+2024-12-17 22:50:41,923 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 22:50:41] "[32mPOST /delete-task HTTP/1.1[0m" 302 -
+2024-12-17 22:50:41,937 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 22:50:41] "GET / HTTP/1.1" 200 -
+2024-12-17 22:56:08,089 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 22:56:08] "GET / HTTP/1.1" 200 -
+2024-12-17 22:56:48,844 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 22:56:48] "GET / HTTP/1.1" 200 -
+2024-12-17 22:57:06,779 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 22:57:06] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-12-17 22:57:06,911 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 22:57:06] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-12-17 22:57:06,925 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 22:57:06] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-12-17 22:57:07,083 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 22:57:07] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=IFW339nLrHWrRp1cci06 HTTP/1.1" 200 -
+2024-12-17 22:57:07,181 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 22:57:07] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-12-17 22:57:25,508 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 22:57:25] "GET / HTTP/1.1" 200 -
+2024-12-17 22:59:08,036 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 22:59:08] "GET / HTTP/1.1" 200 -
+2024-12-17 23:00:28,711 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:00:28] "GET / HTTP/1.1" 200 -
+2024-12-17 23:00:44,253 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:00:44] "[32mPOST /update-task-status HTTP/1.1[0m" 302 -
+2024-12-17 23:00:44,267 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:00:44] "GET / HTTP/1.1" 200 -
+2024-12-17 23:03:14,200 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:03:14] "GET / HTTP/1.1" 200 -
+2024-12-17 23:03:28,784 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:03:28] "GET / HTTP/1.1" 200 -
+2024-12-17 23:03:35,237 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:03:35] "[32mPOST /update-task-status HTTP/1.1[0m" 302 -
+2024-12-17 23:03:35,247 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:03:35] "GET / HTTP/1.1" 200 -
+2024-12-17 23:04:03,637 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:04:03] "GET / HTTP/1.1" 200 -
+2024-12-17 23:04:04,627 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:04:04] "GET / HTTP/1.1" 200 -
+2024-12-17 23:04:05,309 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:04:05] "GET / HTTP/1.1" 200 -
+2024-12-17 23:04:05,501 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:04:05] "GET / HTTP/1.1" 200 -
+2024-12-17 23:04:05,684 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:04:05] "GET / HTTP/1.1" 200 -
+2024-12-17 23:04:05,876 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:04:05] "GET / HTTP/1.1" 200 -
+2024-12-17 23:04:06,066 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:04:06] "GET / HTTP/1.1" 200 -
+2024-12-17 23:04:06,284 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:04:06] "GET / HTTP/1.1" 200 -
+2024-12-17 23:04:53,635 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:04:53] "GET / HTTP/1.1" 200 -
+2024-12-17 23:05:21,870 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:05:21] "GET / HTTP/1.1" 200 -
+2024-12-17 23:05:23,341 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:05:23] "GET / HTTP/1.1" 200 -
+2024-12-17 23:05:25,490 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:05:25] "GET / HTTP/1.1" 200 -
+2024-12-17 23:05:45,600 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:05:45] "GET / HTTP/1.1" 200 -
+2024-12-17 23:05:47,287 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:05:47] "GET / HTTP/1.1" 200 -
+2024-12-17 23:07:59,790 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:07:59] "GET / HTTP/1.1" 200 -
+2024-12-17 23:10:03,035 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:10:03] "GET / HTTP/1.1" 200 -
+2024-12-17 23:10:04,046 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:10:04] "GET / HTTP/1.1" 200 -
+2024-12-17 23:10:09,860 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:10:09] "GET / HTTP/1.1" 200 -
+2024-12-17 23:10:18,540 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:10:18] "GET / HTTP/1.1" 200 -
+2024-12-17 23:10:26,204 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:10:26] "GET / HTTP/1.1" 200 -
+2024-12-17 23:10:36,001 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:10:36] "GET / HTTP/1.1" 200 -
+2024-12-17 23:10:58,301 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:10:58] "GET / HTTP/1.1" 200 -
+2024-12-17 23:11:09,507 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:11:09] "GET / HTTP/1.1" 200 -
+2024-12-17 23:11:18,344 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:11:18] "GET / HTTP/1.1" 200 -
+2024-12-17 23:11:34,807 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:11:34] "GET / HTTP/1.1" 200 -
+2024-12-17 23:11:42,230 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:11:42] "GET / HTTP/1.1" 200 -
+2024-12-17 23:11:48,639 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:11:48] "GET / HTTP/1.1" 200 -
+2024-12-17 23:11:56,755 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:11:56] "GET / HTTP/1.1" 200 -
+2024-12-17 23:12:51,900 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:12:51] "GET / HTTP/1.1" 200 -
+2024-12-17 23:12:53,110 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:12:53] "GET / HTTP/1.1" 200 -
+2024-12-17 23:13:12,635 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:13:12] "GET / HTTP/1.1" 200 -
+2024-12-17 23:13:38,353 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:13:38] "GET / HTTP/1.1" 200 -
+2024-12-17 23:14:08,660 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:14:08] "GET / HTTP/1.1" 200 -
+2024-12-17 23:14:15,840 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:14:15] "GET / HTTP/1.1" 200 -
+2024-12-17 23:14:28,808 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:14:28] "POST / HTTP/1.1" 200 -
+2024-12-17 23:16:34,688 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:16:34] "POST / HTTP/1.1" 200 -
+2024-12-17 23:16:41,819 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:16:41] "[32mPOST /update-task-status HTTP/1.1[0m" 302 -
+2024-12-17 23:16:41,835 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:16:41] "GET / HTTP/1.1" 200 -
+2024-12-17 23:16:46,561 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:16:46] "[32mPOST /update-task-status HTTP/1.1[0m" 302 -
+2024-12-17 23:16:46,573 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:16:46] "GET / HTTP/1.1" 200 -
+2024-12-17 23:18:30,098 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:18:30] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-12-17 23:18:30,146 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:18:30] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-12-17 23:18:30,152 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:18:30] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-17 23:18:30,191 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:18:30] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=IFW339nLrHWrRp1cci06 HTTP/1.1[0m" 304 -
+2024-12-17 23:18:30,228 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:18:30] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-12-17 23:19:09,288 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:19:09] "GET / HTTP/1.1" 200 -
+2024-12-17 23:19:11,580 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:19:11] "GET / HTTP/1.1" 200 -
+2024-12-17 23:19:14,761 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:19:14] "[32mPOST /update-task-status HTTP/1.1[0m" 302 -
+2024-12-17 23:19:14,776 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:19:14] "GET / HTTP/1.1" 200 -
+2024-12-17 23:19:20,423 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:19:20] "[32mPOST /update-task-status HTTP/1.1[0m" 302 -
+2024-12-17 23:19:20,435 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:19:20] "GET / HTTP/1.1" 200 -
+2024-12-17 23:19:23,991 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:19:23] "[32mPOST /update-task-status HTTP/1.1[0m" 302 -
+2024-12-17 23:19:24,005 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:19:24] "GET / HTTP/1.1" 200 -
+2024-12-17 23:19:27,469 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:19:27] "[32mPOST /update-task-status HTTP/1.1[0m" 302 -
+2024-12-17 23:19:27,478 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:19:27] "GET / HTTP/1.1" 200 -
+2024-12-17 23:19:34,673 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:19:34] "[32mPOST /update-task-status HTTP/1.1[0m" 302 -
+2024-12-17 23:19:34,688 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:19:34] "GET / HTTP/1.1" 200 -
+2024-12-17 23:21:01,073 INFO werkzeug :  * Detected change in 'c:\\Users\\Ken Bandiez\\MOMENTUM\\website\\views.py', reloading
+2024-12-17 23:21:01,500 INFO werkzeug :  * Restarting with stat
+2024-12-17 23:21:02,341 WARNING werkzeug :  * Debugger is active!
+2024-12-17 23:21:02,348 INFO werkzeug :  * Debugger PIN: 359-238-220
+2024-12-17 23:21:02,668 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:21:02] "GET / HTTP/1.1" 200 -
+2024-12-17 23:21:05,730 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:21:05] "[32mPOST /update-task-status HTTP/1.1[0m" 302 -
+2024-12-17 23:21:05,742 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:21:05] "GET / HTTP/1.1" 200 -
+2024-12-17 23:21:10,642 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:21:10] "[32mPOST /update-task-status HTTP/1.1[0m" 302 -
+2024-12-17 23:21:10,655 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:21:10] "GET / HTTP/1.1" 200 -
+2024-12-17 23:23:28,227 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:23:28] "GET / HTTP/1.1" 200 -
+2024-12-17 23:25:17,851 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:25:17] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-12-17 23:25:17,974 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:25:17] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-17 23:25:17,979 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:25:17] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-12-17 23:25:18,003 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:25:18] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=FwdSbXPqywwnryvKMB84 HTTP/1.1" 200 -
+2024-12-17 23:25:18,032 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:25:18] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-12-17 23:25:37,635 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:25:37] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-12-17 23:25:37,660 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:25:37] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-12-17 23:25:37,661 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:25:37] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-17 23:25:37,685 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:25:37] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=FwdSbXPqywwnryvKMB84 HTTP/1.1[0m" 304 -
+2024-12-17 23:25:37,713 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:25:37] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-12-17 23:25:38,805 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:25:38] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-12-17 23:25:38,834 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:25:38] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-12-17 23:25:38,835 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:25:38] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-17 23:25:38,853 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:25:38] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=FwdSbXPqywwnryvKMB84 HTTP/1.1[0m" 304 -
+2024-12-17 23:25:38,874 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:25:38] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-12-17 23:25:54,619 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:25:54] "GET / HTTP/1.1" 200 -
+2024-12-17 23:25:59,983 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:25:59] "[32mPOST /update-task-status HTTP/1.1[0m" 302 -
+2024-12-17 23:25:59,993 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:25:59] "GET / HTTP/1.1" 200 -
+2024-12-17 23:26:23,470 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:26:23] "GET / HTTP/1.1" 200 -
+2024-12-17 23:26:24,368 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:26:24] "GET / HTTP/1.1" 200 -
+2024-12-17 23:26:27,672 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:26:27] "[32mPOST /update-task-status HTTP/1.1[0m" 302 -
+2024-12-17 23:26:27,684 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:26:27] "GET / HTTP/1.1" 200 -
+2024-12-17 23:28:32,281 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:28:32] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-12-17 23:28:32,326 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:28:32] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-12-17 23:28:32,329 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:28:32] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-17 23:28:32,356 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:28:32] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=FwdSbXPqywwnryvKMB84 HTTP/1.1[0m" 304 -
+2024-12-17 23:28:32,397 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:28:32] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-12-17 23:28:33,835 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:28:33] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-12-17 23:28:33,858 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:28:33] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-12-17 23:28:33,860 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:28:33] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-17 23:28:33,878 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:28:33] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=FwdSbXPqywwnryvKMB84 HTTP/1.1[0m" 304 -
+2024-12-17 23:28:33,902 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:28:33] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-12-17 23:29:00,861 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:29:00] "GET / HTTP/1.1" 200 -
+2024-12-17 23:29:10,333 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:29:10] "[32mPOST /update-task-status HTTP/1.1[0m" 302 -
+2024-12-17 23:29:10,348 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:29:10] "GET / HTTP/1.1" 200 -
+2024-12-17 23:30:40,780 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:30:40] "GET / HTTP/1.1" 200 -
+2024-12-17 23:31:24,297 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:31:24] "GET / HTTP/1.1" 200 -
+2024-12-17 23:31:46,092 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:31:46] "POST / HTTP/1.1" 200 -
+2024-12-17 23:31:51,166 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:31:51] "POST / HTTP/1.1" 200 -
+2024-12-17 23:31:54,841 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:31:54] "POST / HTTP/1.1" 200 -
+2024-12-17 23:32:37,935 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:32:37] "POST / HTTP/1.1" 200 -
+2024-12-17 23:33:09,766 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:33:09] "POST / HTTP/1.1" 200 -
+2024-12-17 23:33:28,776 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:33:28] "POST / HTTP/1.1" 200 -
+2024-12-17 23:33:44,329 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:33:44] "POST / HTTP/1.1" 200 -
+2024-12-17 23:33:58,845 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:33:58] "[32mPOST /delete-task HTTP/1.1[0m" 302 -
+2024-12-17 23:33:58,856 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:33:58] "GET / HTTP/1.1" 200 -
+2024-12-17 23:34:00,945 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:34:00] "[32mPOST /delete-task HTTP/1.1[0m" 302 -
+2024-12-17 23:34:00,956 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:34:00] "GET / HTTP/1.1" 200 -
+2024-12-17 23:34:02,983 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:34:02] "[32mPOST /delete-task HTTP/1.1[0m" 302 -
+2024-12-17 23:34:02,994 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:34:02] "GET / HTTP/1.1" 200 -
+2024-12-17 23:34:04,844 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:34:04] "[32mPOST /delete-task HTTP/1.1[0m" 302 -
+2024-12-17 23:34:04,855 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:34:04] "GET / HTTP/1.1" 200 -
+2024-12-17 23:34:08,418 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:34:08] "[32mPOST /delete-task HTTP/1.1[0m" 302 -
+2024-12-17 23:34:08,425 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:34:08] "GET / HTTP/1.1" 200 -
+2024-12-17 23:40:36,413 INFO werkzeug :  * Detected change in 'c:\\Users\\Ken Bandiez\\MOMENTUM\\website\\models.py', reloading
+2024-12-17 23:40:36,848 INFO werkzeug :  * Restarting with stat
+2024-12-17 23:40:38,186 WARNING werkzeug :  * Debugger is active!
+2024-12-17 23:40:38,191 INFO werkzeug :  * Debugger PIN: 359-238-220
+2024-12-17 23:40:38,241 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:40:38] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-12-17 23:40:38,352 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:40:38] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-12-17 23:40:38,356 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:40:38] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-17 23:40:38,378 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:40:38] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=ehsSL0smkWTvPiA5QGX6 HTTP/1.1" 200 -
+2024-12-17 23:40:38,414 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:40:38] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-12-17 23:41:00,327 INFO werkzeug :  * Detected change in 'c:\\Users\\Ken Bandiez\\MOMENTUM\\website\\views.py', reloading
+2024-12-17 23:41:00,468 INFO werkzeug :  * Restarting with stat
+2024-12-17 23:41:01,248 WARNING werkzeug :  * Debugger is active!
+2024-12-17 23:41:01,250 INFO werkzeug :  * Debugger PIN: 359-238-220
+2024-12-17 23:41:01,824 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:41:01] "GET / HTTP/1.1" 200 -
+2024-12-17 23:41:32,267 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:41:32] "GET / HTTP/1.1" 200 -
+2024-12-17 23:42:09,152 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:42:09] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-12-17 23:42:09,255 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:42:09] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-12-17 23:42:09,255 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:42:09] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-17 23:42:09,282 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:42:09] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=F3RUhSBeOfDtc6RSUhxI HTTP/1.1" 200 -
+2024-12-17 23:42:09,320 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:42:09] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-12-17 23:42:11,275 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:42:11] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-12-17 23:42:11,303 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:42:11] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-12-17 23:42:11,307 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:42:11] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-17 23:42:11,387 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:42:11] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=F3RUhSBeOfDtc6RSUhxI HTTP/1.1[0m" 304 -
+2024-12-17 23:42:11,417 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:42:11] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-12-17 23:42:26,044 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:42:26] "GET / HTTP/1.1" 200 -
+2024-12-17 23:43:46,954 INFO werkzeug :  * Detected change in 'c:\\Users\\Ken Bandiez\\MOMENTUM\\website\\views.py', reloading
+2024-12-17 23:43:47,122 INFO werkzeug :  * Restarting with stat
+2024-12-17 23:43:47,976 WARNING werkzeug :  * Debugger is active!
+2024-12-17 23:43:47,979 INFO werkzeug :  * Debugger PIN: 359-238-220
+2024-12-17 23:43:48,246 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:43:48] "GET / HTTP/1.1" 200 -
+2024-12-17 23:44:18,116 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:44:18] "GET / HTTP/1.1" 200 -
+2024-12-17 23:44:37,831 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:44:37] "GET / HTTP/1.1" 200 -
+2024-12-17 23:48:23,121 INFO werkzeug :  * Detected change in 'c:\\Users\\Ken Bandiez\\MOMENTUM\\website\\views.py', reloading
+2024-12-17 23:48:23,370 INFO werkzeug :  * Restarting with stat
+2024-12-17 23:48:24,249 WARNING werkzeug :  * Debugger is active!
+2024-12-17 23:48:24,253 INFO werkzeug :  * Debugger PIN: 359-238-220
+2024-12-17 23:48:25,311 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:48:25] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-12-17 23:48:25,437 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:48:25] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-12-17 23:48:25,443 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:48:25] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-17 23:48:25,468 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:48:25] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=JjiItbkRDrwyzXI1Cg0d HTTP/1.1" 200 -
+2024-12-17 23:48:25,495 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:48:25] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-12-17 23:48:27,934 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:48:27] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-12-17 23:48:27,970 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:48:27] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-12-17 23:48:27,974 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:48:27] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-17 23:48:28,003 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:48:28] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=JjiItbkRDrwyzXI1Cg0d HTTP/1.1[0m" 304 -
+2024-12-17 23:48:28,035 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:48:28] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-12-17 23:48:53,415 INFO werkzeug :  * Detected change in 'c:\\Users\\Ken Bandiez\\MOMENTUM\\website\\views.py', reloading
+2024-12-17 23:48:53,673 INFO werkzeug :  * Restarting with stat
+2024-12-17 23:48:54,622 WARNING werkzeug :  * Debugger is active!
+2024-12-17 23:48:54,626 INFO werkzeug :  * Debugger PIN: 359-238-220
+2024-12-17 23:48:55,206 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:48:55] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-12-17 23:48:55,283 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:48:55] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-12-17 23:48:55,294 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:48:55] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-17 23:48:55,312 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:48:55] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=SN9wlSCjUMN13Rrvgofx HTTP/1.1" 200 -
+2024-12-17 23:48:55,336 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:48:55] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-12-17 23:50:55,153 INFO werkzeug :  * Detected change in 'c:\\Users\\Ken Bandiez\\MOMENTUM\\website\\views.py', reloading
+2024-12-17 23:50:55,349 INFO werkzeug :  * Restarting with stat
+2024-12-17 23:50:56,206 WARNING werkzeug :  * Debugger is active!
+2024-12-17 23:50:56,210 INFO werkzeug :  * Debugger PIN: 359-238-220
+2024-12-17 23:50:56,244 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:50:56] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-12-17 23:50:56,311 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:50:56] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-12-17 23:50:56,323 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:50:56] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-17 23:50:56,334 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:50:56] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=gIzucwII7vJCzJjsmU0a HTTP/1.1" 200 -
+2024-12-17 23:50:56,353 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:50:56] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-12-17 23:51:13,311 INFO werkzeug :  * Detected change in 'c:\\Users\\Ken Bandiez\\MOMENTUM\\website\\views.py', reloading
+2024-12-17 23:51:13,534 INFO werkzeug :  * Restarting with stat
+2024-12-17 23:51:14,432 WARNING werkzeug :  * Debugger is active!
+2024-12-17 23:51:14,435 INFO werkzeug :  * Debugger PIN: 359-238-220
+2024-12-17 23:51:14,800 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:51:14] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-12-17 23:51:14,878 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:51:14] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-12-17 23:51:14,893 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:51:14] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-17 23:51:14,910 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:51:14] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=D5QyPxcbAstGajDvPKJN HTTP/1.1" 200 -
+2024-12-17 23:51:14,936 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:51:14] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-12-17 23:51:15,954 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:51:15] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-12-17 23:51:15,985 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:51:15] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-12-17 23:51:15,985 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:51:15] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-17 23:51:16,001 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:51:16] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=D5QyPxcbAstGajDvPKJN HTTP/1.1[0m" 304 -
+2024-12-17 23:51:16,021 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:51:16] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-12-17 23:52:02,642 INFO werkzeug :  * Detected change in 'c:\\Users\\Ken Bandiez\\MOMENTUM\\website\\views.py', reloading
+2024-12-17 23:52:02,891 INFO werkzeug :  * Restarting with stat
+2024-12-17 23:52:03,620 WARNING werkzeug :  * Debugger is active!
+2024-12-17 23:52:03,623 INFO werkzeug :  * Debugger PIN: 359-238-220
+2024-12-17 23:52:06,009 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:52:06] "POST / HTTP/1.1" 200 -
+2024-12-17 23:53:17,948 INFO werkzeug :  * Detected change in 'c:\\Users\\Ken Bandiez\\MOMENTUM\\website\\views.py', reloading
+2024-12-17 23:53:18,150 INFO werkzeug :  * Restarting with stat
+2024-12-17 23:53:18,955 WARNING werkzeug :  * Debugger is active!
+2024-12-17 23:53:18,958 INFO werkzeug :  * Debugger PIN: 359-238-220
+2024-12-17 23:53:20,455 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:53:20] "POST / HTTP/1.1" 200 -
+2024-12-17 23:54:30,289 INFO werkzeug :  * Detected change in 'c:\\Users\\Ken Bandiez\\MOMENTUM\\website\\views.py', reloading
+2024-12-17 23:54:30,458 INFO werkzeug :  * Restarting with stat
+2024-12-17 23:54:31,288 WARNING werkzeug :  * Debugger is active!
+2024-12-17 23:54:31,291 INFO werkzeug :  * Debugger PIN: 359-238-220
+2024-12-17 23:55:19,438 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:55:19] "POST / HTTP/1.1" 200 -
+2024-12-17 23:55:34,793 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:55:34] "POST / HTTP/1.1" 200 -
+2024-12-17 23:56:35,253 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:56:35] "POST / HTTP/1.1" 200 -
+2024-12-17 23:57:05,962 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:57:05] "[32mPOST /delete-task HTTP/1.1[0m" 302 -
+2024-12-17 23:57:05,984 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:57:05] "GET / HTTP/1.1" 200 -
+2024-12-17 23:57:08,784 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:57:08] "[32mPOST /delete-task HTTP/1.1[0m" 302 -
+2024-12-17 23:57:08,796 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:57:08] "GET / HTTP/1.1" 200 -
+2024-12-17 23:57:10,290 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:57:10] "[32mPOST /delete-task HTTP/1.1[0m" 302 -
+2024-12-17 23:57:10,300 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:57:10] "GET / HTTP/1.1" 200 -
+2024-12-17 23:57:12,133 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:57:12] "[32mPOST /delete-task HTTP/1.1[0m" 302 -
+2024-12-17 23:57:12,144 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:57:12] "GET / HTTP/1.1" 200 -
+2024-12-17 23:57:16,972 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:57:16] "[32mGET /logout HTTP/1.1[0m" 302 -
+2024-12-17 23:57:16,986 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:57:16] "GET /login HTTP/1.1" 200 -
+2024-12-17 23:57:20,399 INFO werkzeug : 127.0.0.1 - - [17/Dec/2024 23:57:20] "GET /sign-up HTTP/1.1" 200 -
+2024-12-18 07:34:30,998 INFO werkzeug : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-18 07:34:30,998 INFO werkzeug : [33mPress CTRL+C to quit[0m
+2024-12-18 07:34:31,001 INFO werkzeug :  * Restarting with stat
+2024-12-18 07:34:31,664 WARNING werkzeug :  * Debugger is active!
+2024-12-18 07:34:31,669 INFO werkzeug :  * Debugger PIN: 752-511-012
+2024-12-18 07:34:39,307 INFO werkzeug : 127.0.0.1 - - [18/Dec/2024 07:34:39] "[32mGET / HTTP/1.1[0m" 302 -
+2024-12-18 07:34:39,402 INFO werkzeug : 127.0.0.1 - - [18/Dec/2024 07:34:39] "GET /login?next=/ HTTP/1.1" 200 -
+2024-12-18 07:34:39,709 INFO werkzeug :  * Detected change in 'c:\\Users\\Ken Bandiez\\MOMENTUM\\website\\views.py', reloading
+2024-12-18 07:34:39,840 INFO werkzeug :  * Restarting with stat
+2024-12-18 07:34:40,576 WARNING werkzeug :  * Debugger is active!
+2024-12-18 07:34:40,580 INFO werkzeug :  * Debugger PIN: 752-511-012
+2024-12-18 07:34:41,419 INFO werkzeug : 127.0.0.1 - - [18/Dec/2024 07:34:41] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-12-18 07:35:15,788 INFO werkzeug : 127.0.0.1 - - [18/Dec/2024 07:35:15] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-12-18 07:35:15,818 INFO werkzeug : 127.0.0.1 - - [18/Dec/2024 07:35:15] "GET / HTTP/1.1" 200 -
+2024-12-18 07:35:23,075 INFO werkzeug : 127.0.0.1 - - [18/Dec/2024 07:35:23] "[35m[1mPOST /complete-challenge HTTP/1.1[0m" 500 -
+2024-12-18 07:35:23,206 INFO werkzeug : 127.0.0.1 - - [18/Dec/2024 07:35:23] "GET /complete-challenge?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-12-18 07:35:23,222 INFO werkzeug : 127.0.0.1 - - [18/Dec/2024 07:35:23] "GET /complete-challenge?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-12-18 07:35:23,260 INFO werkzeug : 127.0.0.1 - - [18/Dec/2024 07:35:23] "GET /complete-challenge?__debugger__=yes&cmd=resource&f=console.png&s=ZctWSpG2mySoZ0d49FQm HTTP/1.1" 200 -
+2024-12-18 07:35:23,278 INFO werkzeug : 127.0.0.1 - - [18/Dec/2024 07:35:23] "GET /complete-challenge?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-12-18 07:38:10,312 INFO werkzeug :  * Detected change in 'c:\\Users\\Ken Bandiez\\MOMENTUM\\website\\views.py', reloading
+2024-12-18 07:38:10,507 INFO werkzeug :  * Restarting with stat
+2024-12-18 07:38:11,660 WARNING werkzeug :  * Debugger is active!
+2024-12-18 07:38:11,663 INFO werkzeug :  * Debugger PIN: 752-511-012
+2024-12-18 07:39:35,956 INFO werkzeug :  * Detected change in 'c:\\Users\\Ken Bandiez\\MOMENTUM\\website\\views.py', reloading
+2024-12-18 07:39:36,083 INFO werkzeug :  * Restarting with stat
+2024-12-18 07:39:36,764 WARNING werkzeug :  * Debugger is active!
+2024-12-18 07:39:36,767 INFO werkzeug :  * Debugger PIN: 752-511-012
+2024-12-18 07:39:37,967 INFO werkzeug : 127.0.0.1 - - [18/Dec/2024 07:39:37] "[32mPOST /complete-challenge HTTP/1.1[0m" 302 -
+2024-12-18 07:39:37,987 INFO werkzeug : 127.0.0.1 - - [18/Dec/2024 07:39:37] "GET / HTTP/1.1" 200 -
+2024-12-18 07:39:40,692 INFO werkzeug : 127.0.0.1 - - [18/Dec/2024 07:39:40] "[32mPOST /complete-challenge HTTP/1.1[0m" 302 -
+2024-12-18 07:39:40,698 INFO werkzeug : 127.0.0.1 - - [18/Dec/2024 07:39:40] "GET / HTTP/1.1" 200 -
+2024-12-18 07:41:33,784 INFO werkzeug : 127.0.0.1 - - [18/Dec/2024 07:41:33] "GET / HTTP/1.1" 200 -
+2024-12-18 07:41:44,749 INFO werkzeug : 127.0.0.1 - - [18/Dec/2024 07:41:44] "GET / HTTP/1.1" 200 -
+2024-12-18 07:41:49,194 INFO werkzeug : 127.0.0.1 - - [18/Dec/2024 07:41:49] "[32mPOST /complete-challenge HTTP/1.1[0m" 302 -
+2024-12-18 07:41:49,204 INFO werkzeug : 127.0.0.1 - - [18/Dec/2024 07:41:49] "GET / HTTP/1.1" 200 -
+2024-12-18 07:42:36,440 INFO werkzeug : 127.0.0.1 - - [18/Dec/2024 07:42:36] "GET / HTTP/1.1" 200 -
+2024-12-18 07:42:37,672 INFO werkzeug : 127.0.0.1 - - [18/Dec/2024 07:42:37] "[32mPOST /complete-challenge HTTP/1.1[0m" 302 -
+2024-12-18 07:42:37,680 INFO werkzeug : 127.0.0.1 - - [18/Dec/2024 07:42:37] "GET / HTTP/1.1" 200 -
+2024-12-18 07:43:44,949 INFO werkzeug : 127.0.0.1 - - [18/Dec/2024 07:43:44] "GET / HTTP/1.1" 200 -
+2024-12-18 07:43:46,116 INFO werkzeug : 127.0.0.1 - - [18/Dec/2024 07:43:46] "[32mPOST /complete-challenge HTTP/1.1[0m" 302 -
+2024-12-18 07:43:46,126 INFO werkzeug : 127.0.0.1 - - [18/Dec/2024 07:43:46] "GET / HTTP/1.1" 200 -
+2024-12-18 07:44:05,386 INFO werkzeug : 127.0.0.1 - - [18/Dec/2024 07:44:05] "GET / HTTP/1.1" 200 -
+2024-12-18 07:44:06,250 INFO werkzeug : 127.0.0.1 - - [18/Dec/2024 07:44:06] "[32mPOST /complete-challenge HTTP/1.1[0m" 302 -
+2024-12-18 07:44:06,257 INFO werkzeug : 127.0.0.1 - - [18/Dec/2024 07:44:06] "GET / HTTP/1.1" 200 -
+2024-12-18 07:45:10,889 INFO werkzeug :  * Detected change in 'c:\\Users\\Ken Bandiez\\MOMENTUM\\website\\views.py', reloading
+2024-12-18 07:45:11,075 INFO werkzeug :  * Restarting with stat
+2024-12-18 07:45:11,795 WARNING werkzeug :  * Debugger is active!
+2024-12-18 07:45:11,798 INFO werkzeug :  * Debugger PIN: 752-511-012
+2024-12-18 07:45:11,957 INFO werkzeug : 127.0.0.1 - - [18/Dec/2024 07:45:11] "GET / HTTP/1.1" 200 -
+2024-12-18 07:45:13,103 INFO werkzeug : 127.0.0.1 - - [18/Dec/2024 07:45:13] "[32mPOST /complete-challenge HTTP/1.1[0m" 302 -
+2024-12-18 07:45:13,110 INFO werkzeug : 127.0.0.1 - - [18/Dec/2024 07:45:13] "GET / HTTP/1.1" 200 -
+2024-12-18 07:47:39,299 INFO werkzeug :  * Detected change in 'c:\\Users\\Ken Bandiez\\MOMENTUM\\website\\views.py', reloading
+2024-12-18 07:47:39,418 INFO werkzeug :  * Restarting with stat
+2024-12-18 07:47:40,096 WARNING werkzeug :  * Debugger is active!
+2024-12-18 07:47:40,099 INFO werkzeug :  * Debugger PIN: 752-511-012
+2024-12-18 07:47:40,131 INFO werkzeug : 127.0.0.1 - - [18/Dec/2024 07:47:40] "GET / HTTP/1.1" 200 -
+2024-12-18 07:47:41,437 INFO werkzeug : 127.0.0.1 - - [18/Dec/2024 07:47:41] "[32mPOST /complete-challenge HTTP/1.1[0m" 302 -
+2024-12-18 07:47:41,444 INFO werkzeug : 127.0.0.1 - - [18/Dec/2024 07:47:41] "GET / HTTP/1.1" 200 -
+2024-12-18 07:47:42,846 INFO werkzeug : 127.0.0.1 - - [18/Dec/2024 07:47:42] "[32mPOST /complete-challenge HTTP/1.1[0m" 302 -
+2024-12-18 07:47:42,852 INFO werkzeug : 127.0.0.1 - - [18/Dec/2024 07:47:42] "GET / HTTP/1.1" 200 -
+2024-12-18 07:47:43,612 INFO werkzeug : 127.0.0.1 - - [18/Dec/2024 07:47:43] "[32mPOST /complete-challenge HTTP/1.1[0m" 302 -
+2024-12-18 07:47:43,619 INFO werkzeug : 127.0.0.1 - - [18/Dec/2024 07:47:43] "GET / HTTP/1.1" 200 -
+2024-12-18 07:47:44,477 INFO werkzeug : 127.0.0.1 - - [18/Dec/2024 07:47:44] "[32mPOST /complete-challenge HTTP/1.1[0m" 302 -
+2024-12-18 07:47:44,484 INFO werkzeug : 127.0.0.1 - - [18/Dec/2024 07:47:44] "GET / HTTP/1.1" 200 -
+2024-12-18 07:47:44,894 INFO werkzeug : 127.0.0.1 - - [18/Dec/2024 07:47:44] "[32mPOST /complete-challenge HTTP/1.1[0m" 302 -
+2024-12-18 07:47:44,902 INFO werkzeug : 127.0.0.1 - - [18/Dec/2024 07:47:44] "GET / HTTP/1.1" 200 -
+2024-12-18 07:47:45,248 INFO werkzeug : 127.0.0.1 - - [18/Dec/2024 07:47:45] "[32mPOST /complete-challenge HTTP/1.1[0m" 302 -
+2024-12-18 07:47:45,255 INFO werkzeug : 127.0.0.1 - - [18/Dec/2024 07:47:45] "GET / HTTP/1.1" 200 -
+2024-12-18 07:47:45,664 INFO werkzeug : 127.0.0.1 - - [18/Dec/2024 07:47:45] "[32mPOST /complete-challenge HTTP/1.1[0m" 302 -
+2024-12-18 07:47:45,672 INFO werkzeug : 127.0.0.1 - - [18/Dec/2024 07:47:45] "GET / HTTP/1.1" 200 -
+2024-12-18 07:47:45,825 INFO werkzeug : 127.0.0.1 - - [18/Dec/2024 07:47:45] "[32mPOST /complete-challenge HTTP/1.1[0m" 302 -
+2024-12-18 07:47:45,832 INFO werkzeug : 127.0.0.1 - - [18/Dec/2024 07:47:45] "GET / HTTP/1.1" 200 -
+2024-12-18 07:47:46,001 INFO werkzeug : 127.0.0.1 - - [18/Dec/2024 07:47:46] "[32mPOST /complete-challenge HTTP/1.1[0m" 302 -
+2024-12-18 07:47:46,006 INFO werkzeug : 127.0.0.1 - - [18/Dec/2024 07:47:46] "GET / HTTP/1.1" 200 -
+2024-12-18 07:47:46,840 INFO werkzeug : 127.0.0.1 - - [18/Dec/2024 07:47:46] "[32mPOST /complete-challenge HTTP/1.1[0m" 302 -
+2024-12-18 07:47:46,847 INFO werkzeug : 127.0.0.1 - - [18/Dec/2024 07:47:46] "GET / HTTP/1.1" 200 -
+2024-12-18 07:49:28,655 INFO werkzeug : 127.0.0.1 - - [18/Dec/2024 07:49:28] "GET / HTTP/1.1" 200 -
+2024-12-18 07:49:30,191 INFO werkzeug : 127.0.0.1 - - [18/Dec/2024 07:49:30] "[35m[1mPOST /complete-challenge HTTP/1.1[0m" 500 -
+2024-12-18 07:49:30,278 INFO werkzeug : 127.0.0.1 - - [18/Dec/2024 07:49:30] "[36mGET /complete-challenge?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-12-18 07:49:30,279 INFO werkzeug : 127.0.0.1 - - [18/Dec/2024 07:49:30] "[36mGET /complete-challenge?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-18 07:49:30,297 INFO werkzeug : 127.0.0.1 - - [18/Dec/2024 07:49:30] "GET /complete-challenge?__debugger__=yes&cmd=resource&f=console.png&s=oKGZbULPR8JCYA2gTLsP HTTP/1.1" 200 -
+2024-12-18 07:49:30,313 INFO werkzeug : 127.0.0.1 - - [18/Dec/2024 07:49:30] "[36mGET /complete-challenge?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-12-18 07:49:34,399 INFO werkzeug : 127.0.0.1 - - [18/Dec/2024 07:49:34] "[35m[1mPOST /complete-challenge HTTP/1.1[0m" 500 -
+2024-12-18 07:49:34,421 INFO werkzeug : 127.0.0.1 - - [18/Dec/2024 07:49:34] "[36mGET /complete-challenge?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-12-18 07:49:34,422 INFO werkzeug : 127.0.0.1 - - [18/Dec/2024 07:49:34] "[36mGET /complete-challenge?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-18 07:49:34,439 INFO werkzeug : 127.0.0.1 - - [18/Dec/2024 07:49:34] "[36mGET /complete-challenge?__debugger__=yes&cmd=resource&f=console.png&s=oKGZbULPR8JCYA2gTLsP HTTP/1.1[0m" 304 -
+2024-12-18 07:51:17,851 INFO werkzeug :  * Detected change in 'c:\\Users\\Ken Bandiez\\MOMENTUM\\website\\views.py', reloading
+2024-12-18 07:51:18,005 INFO werkzeug :  * Restarting with stat
+2024-12-18 07:51:18,717 WARNING werkzeug :  * Debugger is active!
+2024-12-18 07:51:18,721 INFO werkzeug :  * Debugger PIN: 752-511-012
+2024-12-18 07:51:18,757 INFO werkzeug : 127.0.0.1 - - [18/Dec/2024 07:51:18] "GET / HTTP/1.1" 200 -
+2024-12-18 07:51:19,847 INFO werkzeug : 127.0.0.1 - - [18/Dec/2024 07:51:19] "[32mPOST /complete-challenge HTTP/1.1[0m" 302 -
+2024-12-18 07:51:19,853 INFO werkzeug : 127.0.0.1 - - [18/Dec/2024 07:51:19] "GET / HTTP/1.1" 200 -
+2024-12-18 07:55:17,926 INFO werkzeug : 127.0.0.1 - - [18/Dec/2024 07:55:17] "[32mPOST /update-task-status HTTP/1.1[0m" 302 -
+2024-12-18 07:55:17,937 INFO werkzeug : 127.0.0.1 - - [18/Dec/2024 07:55:17] "GET / HTTP/1.1" 200 -
+2024-12-18 07:55:20,510 INFO werkzeug : 127.0.0.1 - - [18/Dec/2024 07:55:20] "[32mPOST /update-task-status HTTP/1.1[0m" 302 -
+2024-12-18 07:55:20,519 INFO werkzeug : 127.0.0.1 - - [18/Dec/2024 07:55:20] "GET / HTTP/1.1" 200 -
+2024-12-18 07:55:23,003 INFO werkzeug : 127.0.0.1 - - [18/Dec/2024 07:55:23] "[32mPOST /update-task-status HTTP/1.1[0m" 302 -
+2024-12-18 07:55:23,009 INFO werkzeug : 127.0.0.1 - - [18/Dec/2024 07:55:23] "GET / HTTP/1.1" 200 -
+2024-12-18 07:55:25,611 INFO werkzeug : 127.0.0.1 - - [18/Dec/2024 07:55:25] "[32mPOST /delete-task HTTP/1.1[0m" 302 -
+2024-12-18 07:55:25,617 INFO werkzeug : 127.0.0.1 - - [18/Dec/2024 07:55:25] "GET / HTTP/1.1" 200 -
+2024-12-18 07:55:26,679 INFO werkzeug : 127.0.0.1 - - [18/Dec/2024 07:55:26] "[32mPOST /delete-task HTTP/1.1[0m" 302 -
+2024-12-18 07:55:26,685 INFO werkzeug : 127.0.0.1 - - [18/Dec/2024 07:55:26] "GET / HTTP/1.1" 200 -
+2024-12-18 07:55:27,445 INFO werkzeug : 127.0.0.1 - - [18/Dec/2024 07:55:27] "[32mPOST /delete-task HTTP/1.1[0m" 302 -
+2024-12-18 07:55:27,451 INFO werkzeug : 127.0.0.1 - - [18/Dec/2024 07:55:27] "GET / HTTP/1.1" 200 -
+2024-12-18 07:55:29,235 INFO werkzeug : 127.0.0.1 - - [18/Dec/2024 07:55:29] "[32mPOST /update-task-status HTTP/1.1[0m" 302 -
+2024-12-18 07:55:29,241 INFO werkzeug : 127.0.0.1 - - [18/Dec/2024 07:55:29] "GET / HTTP/1.1" 200 -
+2024-12-18 07:56:05,404 INFO werkzeug : 127.0.0.1 - - [18/Dec/2024 07:56:05] "GET / HTTP/1.1" 200 -
+2024-12-18 07:58:06,781 INFO werkzeug : 127.0.0.1 - - [18/Dec/2024 07:58:06] "GET / HTTP/1.1" 200 -
+2024-12-18 07:58:25,550 INFO werkzeug : 127.0.0.1 - - [18/Dec/2024 07:58:25] "GET / HTTP/1.1" 200 -
+2024-12-18 07:59:56,114 INFO werkzeug : 127.0.0.1 - - [18/Dec/2024 07:59:56] "POST / HTTP/1.1" 200 -
+2024-12-18 08:04:30,429 INFO werkzeug :  * Detected change in 'c:\\Users\\Ken Bandiez\\MOMENTUM\\website\\views.py', reloading
+2024-12-18 08:04:30,608 INFO werkzeug :  * Restarting with stat
+2024-12-18 08:04:31,408 WARNING werkzeug :  * Debugger is active!
+2024-12-18 08:04:31,411 INFO werkzeug :  * Debugger PIN: 752-511-012
+2024-12-18 08:04:43,639 INFO werkzeug : 127.0.0.1 - - [18/Dec/2024 08:04:43] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+2024-12-18 08:04:43,743 INFO werkzeug : 127.0.0.1 - - [18/Dec/2024 08:04:43] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-12-18 08:04:43,744 INFO werkzeug : 127.0.0.1 - - [18/Dec/2024 08:04:43] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-12-18 08:04:43,764 INFO werkzeug : 127.0.0.1 - - [18/Dec/2024 08:04:43] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=vrWh7wyF3IeCGmFa1DRA HTTP/1.1" 200 -
+2024-12-18 08:04:43,778 INFO werkzeug : 127.0.0.1 - - [18/Dec/2024 08:04:43] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-12-18 08:07:02,947 INFO werkzeug : 127.0.0.1 - - [18/Dec/2024 08:07:02] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-12-18 08:07:35,026 INFO werkzeug :  * Detected change in 'c:\\Users\\Ken Bandiez\\MOMENTUM\\website\\views.py', reloading
+2024-12-18 08:07:35,179 INFO werkzeug :  * Restarting with stat
+2024-12-18 08:07:35,840 WARNING werkzeug :  * Debugger is active!
+2024-12-18 08:07:35,842 INFO werkzeug :  * Debugger PIN: 752-511-012
+2024-12-18 08:07:43,895 INFO werkzeug : 127.0.0.1 - - [18/Dec/2024 08:07:43] "GET / HTTP/1.1" 200 -
+2024-12-18 08:15:42,514 INFO werkzeug :  * Detected change in 'c:\\Users\\Ken Bandiez\\MOMENTUM\\website\\views.py', reloading
+2024-12-18 08:15:42,786 INFO werkzeug :  * Restarting with stat
+2024-12-18 08:15:43,814 WARNING werkzeug :  * Debugger is active!
+2024-12-18 08:15:43,817 INFO werkzeug :  * Debugger PIN: 752-511-012
+2024-12-18 08:27:25,201 INFO werkzeug :  * Detected change in 'c:\\Users\\Ken Bandiez\\MOMENTUM\\main.py', reloading
+2024-12-18 08:27:25,465 INFO werkzeug :  * Restarting with stat
+2024-12-18 08:27:26,196 WARNING werkzeug :  * Debugger is active!
+2024-12-18 08:27:26,200 INFO werkzeug :  * Debugger PIN: 752-511-012
+2024-12-18 08:27:38,251 INFO werkzeug :  * Detected change in 'c:\\Users\\Ken Bandiez\\MOMENTUM\\main.py', reloading
+2024-12-18 08:27:38,341 INFO werkzeug :  * Restarting with stat
+2024-12-18 08:40:23,801 INFO werkzeug : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.8:5000
+2024-12-18 08:40:23,801 INFO werkzeug : [33mPress CTRL+C to quit[0m
